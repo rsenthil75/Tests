@@ -5,7 +5,7 @@ import com.sample.practice.Pages;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class Test1 {
+public class HomePageTest {
     @Test
     public void checkHomePage() {
         String url="https://www.selenium.dev";
