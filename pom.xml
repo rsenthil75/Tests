@@ -10,15 +10,19 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.testinterface</groupId>
+            <artifactId>TestInterface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.7.2</version>
         </dependency>
     </dependencies>
 
-    <properties>
-        <maven.compiler.release>11</maven.compiler.release>
-    </properties>
+
 
     <build>
         <plugins>
