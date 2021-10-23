@@ -23,10 +23,6 @@ public class HomePageTest {
         String title ="Downloads | Selenium";
         Pages.downloadPage().open(url);
         assertEquals(Pages.downloadPage().getTitle(),title);
-    }
-
-    @AfterAll
-    public void testClose(){
         Pages.close();
     }
 
